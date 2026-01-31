@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Student</title>
+    <style>
+        body { font-family: Arial; background:#f4f6f8; }
+        .box {
+            width: 420px;
+            margin: 40px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        input, button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        button {
+            background: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        a { font-size: 14px; text-decoration: none; }
+    </style>
+</head>
+<body>
+
+<div class="box">
+    <h2>Add Student</h2>
+
+    <form method="POST">
+        <input name="name" placeholder="Full Name" required>
+        <input type="date" name="dob" required>
+        <input name="degree" placeholder="Degree (BE / BSc / BTech)" required>
+        <input type="number" name="year" placeholder="Year of Passing" required>
+        <input name="branch" placeholder="Branch / Course" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <input name="phone" placeholder="Phone Number" required>
+        <button type="submit">Save Student</button>
+    </form>
+
+    <a href="/students">View Students →</a>
+</div>
+
+</body>
+</html>
+
+
