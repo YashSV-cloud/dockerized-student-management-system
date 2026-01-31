@@ -38,7 +38,6 @@ Project Structure:
 - Dockerfile            → Flask application Docker image
 - docker-compose.yml    → Multi-container orchestration (Flask + MySQL)
 - .env                  → Environment variables for database configuration
-- .env.example          → Environment variables template
 - README.md             → Project documentation
 
 
