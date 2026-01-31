@@ -29,17 +29,18 @@ Tech Stack:
 - Frontend: HTML, CSS (minimal)
 
 Project Structure:
-student-management-system/
-├── app/
-│   ├── app.py
-│   ├── requirements.txt
-│   └── templates/
-│       ├── index.html
-│       └── students.html
-├── Dockerfile
-├── docker-compose.yml
-├── .env
-└── README.md
+- app/                  → Flask backend application
+- app/app.py            → Flask server and route handling
+- app/requirements.txt  → Python dependencies
+- app/templates/        → HTML frontend files
+- app/templates/index.html    → Student registration form
+- app/templates/students.html → Student list page
+- Dockerfile            → Flask application Docker image
+- docker-compose.yml    → Multi-container orchestration (Flask + MySQL)
+- .env                  → Environment variables for database configuration
+- .env.example          → Environment variables template
+- README.md             → Project documentation
+
 
 Prerequisites:
 - Docker
